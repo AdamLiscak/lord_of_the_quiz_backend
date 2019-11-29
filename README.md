@@ -23,3 +23,26 @@ demnach ist die Addresse:
 http://osboxes/lord_of_the_quiz_backend 
 
 Das funktioniert nur lokal, aber das passt so. Sonst müssten wir beim Router Port forwarding einstellen und das ist unnötig und ziemlich nervig... außerdem ginge das nicht im Netz unserer FH weil wir keine Rechte auf die Router haben.
+
+# Server testen
+
+von einem device auf eurem Netzwerk ( nicht der virtual machine):
+
+öffnet die Kommandozeile:
+
+schreibt 
+
+ping osboxes
+
+falls da kein error kommt seits gut dabei
+
+oder
+
+öffnet den Browser
+
+schreibt
+
+http://osboxes
+
+Falls da so ne ubuntu server seite kommt seits gut dabei.
+
