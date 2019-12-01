@@ -28,7 +28,13 @@ Der Server befindet sich hier:
 
 Also die Repository von der virtual machine aus in
 
-/var/www/html clonen !
+/var/www/html clonen !:
+
+cd /var/www/html
+
+git clone https://github.com/DPRKunicorn/lord_of_the_quiz_backend.git
+
+sudo chmod -R 777 .
 
 # Zugriff von einem Anderen Device ( prinzipiell müsst ihr das nicht durchlesen )
 Falls ihr vom Handy oder einem anderem PC zugreifen wollt:

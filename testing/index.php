@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body id="penis">
-
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 <form method="post" action="index.php">
@@ -17,12 +16,17 @@
     <button>Send my greetings</button>
   </div>
 <?php
+
 $file = file_get_contents("cocks.txt");
 $myfile = fopen("cocks.txt","w") or die("Unable to open file!");
 $current = $file."\n"."penis".($_POST["to"]);#$_POST("to");
 fwrite($myfile,$current);
-fwclose($myfile);
+fclose($myfile);
+echo $_POST["to"];
 ?>
+
+
+
 </form>
-cock</body>
+</body>
 </html>
