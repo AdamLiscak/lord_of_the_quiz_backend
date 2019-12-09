@@ -69,3 +69,12 @@ http://osboxes
 
 Falls da so ne ubuntu server seite kommt seits gut dabei.
 
+# Datenbank einstellen...
+Kopiert folgende inhalte von Dateien IN CHRONOLOGISCHER REIHENFOLGE ins Abfragefenster von PHPMYADMIN:
+
+sql/dbDump.sql
+
+sql/examples.sql
+
+und führt die Abfragen mit ctrl+enter aus.
+
