@@ -8,3 +8,11 @@ SELECT  DISTINCT name FROM scoreboard AS a INNER JOIN users AS b on a.userID=b.i
 SELECT  DISTINCT name FROM scoreboard AS a INNER JOIN quizes AS b on a.quizID=b.id WHERE  userID = <your_id>  ORDER BY score ASC LIMIT <x> 
 -- select first x scores in scoreboard by user and quiz --
 SELECT name FROM scoreboard AS a INNER JOIN quizes AS b on a.quizID=b.id WHERE  userID = <your_id> AND quizID= <your_second_id>  ORDER BY score ASC LIMIT <x> 
+-- check if username is in users --
+SELECT id FROM users WHERE name=<your_name>
+-- insert a new user --
+INSERT INTO users(name,passwd) VALUES
+(<username>,<password>);
+-- remove a user --
+DELETE FROM users where name=<username>
+
