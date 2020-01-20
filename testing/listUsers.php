@@ -12,6 +12,9 @@ include("../Database.php");
 			{
 				$scores[] = $row;
 			}
-			var_dump($scores);
+			for($i=0;$i<sizeof($scores);$i++)
+			{
+			var_dump($scores[$i]->name);
+			}
 		}
 ?>
