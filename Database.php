@@ -66,9 +66,7 @@ class Database
 
 		if ($result == false)
 		{
-			echo "<b>Fatal Error!</b> MySQL-Error (".mysqli_errno($this->conn)."): ".mysqli_error($this->conn);
-			echo "<br><br>Query:<br>\n";
-			echo $sql."\n<br>";
+            echo 600;
 			die();
 		}
 
