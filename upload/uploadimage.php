@@ -12,7 +12,7 @@ $fp = fopen($img, 'w') or die("penis !!!");
 fwrite($fp, $req_dump);
 fclose($fp);
 chmod($img, 0764);
-$fq = fopen("uploadimage.log",'a') or die ("penis!!!");
+$fq = fopen("uploadimage.log",'a') or die ("wiener!!!");
 fwrite($fq, $img);
 fclose($fq);
 ?>
